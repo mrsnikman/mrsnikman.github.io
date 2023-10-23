@@ -1,4 +1,4 @@
-# mrsnikman.github.io
+# https://mrsnikman.github.io
 
 GitHub Pages — это бесплатный хостинг для статических файлов.
 
