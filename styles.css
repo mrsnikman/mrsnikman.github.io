@@ -1,7 +1,13 @@
-
 .page_header{
-    color: black;
+    @support (backdrop-filter: blur(10px)){
+        backdrop-filter: blur(10px);
+        background-color: rbga;
+    }    
+}
+
+.page_header1{
     text-align: center;
+    color: black;
     font-family: verdana;
 }
 
@@ -9,10 +15,24 @@
     .container{
         color: blue;
         font-family: verdana;
+        display: block;
+        text-size-adjust: 23px;
+        text-decoration: none;
     }
 }
 .main_page{
+    padding-top: 1%;
+    padding-bottom: 1%;
     .container{
         font-family: verdana;
+    }
+}
+
+.page_footer{
+    color: black;
+    text-align: center;
+    font-family: verdana;
+    .name{
+        color: red;
     }
 }
